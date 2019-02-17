@@ -74,3 +74,6 @@ int f(int n) {
 ```
 함수 `f`가 한 번 호출될 때마다, 재귀적으로 두 개의 'f'를 다시 호출하고 있다. 따라서 호출을 반복할수록 시간 복잡도는 2의 제곱으로 늘어날 것이다. 만약 'f'의 내부에서 'f'를 세 번씩 호출한다면, 복잡도는 ![](https://latex.codecogs.com/gif.latex?O%283%5EN%29)이 될 것이다.
 
+
+### 유의점
+- Big-O Notation은 절대적인 알고리즘의 수행 시간을 나타내기 위한 방법이 아니다. 상대적으로 알고리즘의 평균적인 연산 수행 빈도가 어느 정도 되는지를 알아보기 위함일 뿐이다. 예를 들어, 같은 ![](https://latex.codecogs.com/gif.latex?O%28n%20%5Clog%20n%29) 시간 복잡도로 표현되어도, 사실 ![](https://latex.codecogs.com/gif.latex?n%20%5Clog_2%20n)과 ![](https://latex.codecogs.com/gif.latex?n%20%5Clog_4%20n)은 알고리즘의 연산 수행 빈도로 보았을 때 전혀 다른 수행 시간을 가진다.
