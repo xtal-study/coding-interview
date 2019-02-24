@@ -67,6 +67,6 @@ N만큼 부분 배열을 나누는데, 나눌 때마다 원소가 절반씩 감�
 그러다가 탐색된 원소가 하나면 중단함.
 
 배열 원소의 개수가 16개이고 원소가 1개 남을 때까지의 수행 횟수가 k일 때, 2^k=16임.  
-위 [log(로그)]()에 따르면 2^k=16은 k=log_{2}16의 역계산으로 k=log_2N임.  
+위 [log(로그)](https://github.com/xtal-study/coding-interview/tree/master/jeongyeon/Feb_2nd_week#log%EB%A1%9C%EA%B7%B8)에 따르면 2^k=16은 k=log_{2}16의 역계산으로 k=log_2N임.  
 big-O에서 로그의 밑은 고려하지 않으므로, k=logN임. ~~고려 안하는 이유 추가 예정~~  
 이처럼 수행 횟수가 증가할 때마다 원소 개수가 절반으로 줄어든다면 `O(logN)`이 될 가능성이 큼.
