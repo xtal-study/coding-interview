@@ -14,3 +14,11 @@ Ex)
     |- README.md
     |- bubblesort.c
 ```
+
+## schedule
+| DATE | CONTENTS  | PROGRESS (SM/JY) |
+|---|---|---|
+| Feb 2nd | big-o | D / D |
+| Mar 2nd | hash table, linked list | T / I  |
+> T: Todo, I: Ing, D: Done  
+~화잍이팅팅!! 어쩌다보니 기간이 듬듬성이야,,~
