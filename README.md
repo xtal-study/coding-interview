@@ -20,5 +20,7 @@ Ex)
 |---|---|---|
 | Feb 2nd | big-o | D / D |
 | Mar 2nd | hash table, linked list | T / I  |
+| June 1st| Stack, Queue | T / T |
 > T: Todo, I: Ing, D: Done  
 ~화잍이팅팅!! 어쩌다보니 기간이 듬듬성이야,,~
+~괜차너괜차너 다시 파이팅!~
